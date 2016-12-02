@@ -13,7 +13,7 @@ var dotenv = require('dotenv').load({silent: true})
 
 mongoose.connect(process.env.MONGO_URL, function(err){
   if(err) return console.log(err)
-  console.log("Connect to DB");
+  console.log("Connected to DB");
 })
 
 var Input = require('./server/models/input.js')
@@ -46,7 +46,7 @@ app.get('*', function(req, res) {
 
 
 app.listen(port, function(err) {
-  console.log(err || "Listening on port 3000.")
+  console.log(err || "Listening on" + port)
 })
 //ROUTES FOR /API
 // app.route('/api')
