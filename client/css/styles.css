@@ -8,6 +8,19 @@
 #loading{
   float:right;
 }
+#hlinks-head{
+  margin:0 auto;
+  color: white;
+}
+#hlinks-link{
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 16px;
+  color:white;
+}
+#hlinks-link:hover{
+  color: royalblue;
+}
 div.progress{
   background-color:black;
   border: 1px solid #eaeaea;
