@@ -14,9 +14,10 @@
 }
 #hlinks-link{
   margin: 0 auto;
-  display: inline-block;
+  display: block;
   font-size: 16px;
   color:white;
+  padding: 2px;
 }
 #hlinks-link:hover{
   color: royalblue;
